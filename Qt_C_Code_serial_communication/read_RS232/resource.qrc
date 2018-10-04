@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>resource/bud_rate.jpg</file>
+        <file>resource/exclamation.png</file>
+        <file>resource/exit.png</file>
+        <file>resource/quation_symbol.png</file>
+    </qresource>
+</RCC>
