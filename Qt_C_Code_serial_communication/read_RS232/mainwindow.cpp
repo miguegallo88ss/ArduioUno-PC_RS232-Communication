@@ -1,3 +1,12 @@
+/*      GHN= Git Hub Naranjo
+****************************************************************************
+DATE    : MARK        : RISK    : COMMENT
+100318  : GHN_00_00   : L       : First edit to track files adits
+
+
+****************************************************************************
+*/
+
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "QMessageBox"
