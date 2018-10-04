@@ -1,10 +1,12 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-08-19T13:18:50
+# Project created by QtCreator 2018-10-03T20:40:15
 #
 #-------------------------------------------------
 
-QT       += core gui widgets
+QT       += core gui
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = read_RS232
 TEMPLATE = app
@@ -24,15 +26,22 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    about.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    about.h \
+    var.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    about.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resource.qrc
